@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-napi",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "C APIs for creating N-API strided array native add-ons.",
   "license": "Apache-2.0",
   "author": {
