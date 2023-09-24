@@ -18,6 +18,17 @@ limitations under the License.
 
 -->
 
+
+<details>
+  <summary>
+    About stdlib...
+  </summary>
+  <p>We believe in a future in which the web is a preferred environment for numerical computation. To help realize this future, we've built stdlib. stdlib is a standard library, with an emphasis on numerical and scientific computation, written in JavaScript (and C) for execution in browsers and in Node.js.</p>
+  <p>The library is fully decomposable, being architected in such a way that you can swap out and mix and match APIs and functionality to cater to your exact preferences and use cases.</p>
+  <p>When you use stdlib, you can be absolutely certain that you are using the most thorough, rigorous, well-written, studied, documented, tested, measured, and high-quality code out there.</p>
+  <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
+</details>
+
 # Strided Array Native Add-ons
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
@@ -108,36 +119,36 @@ This package exposes various C APIs to facilitate the creation of Node-API strid
 
 <!-- NOTE: please keep in alphabetical order -->
 
--   [`@stdlib/strided/base/binary`][@stdlib/strided/base/binary]: strided array loops for operating on two input strided arrays and one or more output strided arrays.
--   [`@stdlib/strided/base/cmap`][@stdlib/strided/base/cmap]: single-precision complex floating-point strided array interface for applying a unary callback to a single input strided array.
--   [`@stdlib/strided/base/dmap`][@stdlib/strided/base/dmap]: double-precision floating-point strided array interface for applying a unary callback to a single input strided array.
--   [`@stdlib/strided/base/dmap2`][@stdlib/strided/base/dmap2]: double-precision floating-point strided array interface for applying a binary callback to two input strided arrays.
--   [`@stdlib/strided/base/dmskmap`][@stdlib/strided/base/dmskmap]: double-precision floating-point strided array interface for applying a unary callback to a single input strided array according to a mask strided array.
--   [`@stdlib/strided/base/dmskmap2`][@stdlib/strided/base/dmskmap2]: double-precision floating-point strided array interface for applying a unary callback to two input strided arrays according to a mask strided array.
--   [`@stdlib/strided/base/function-object`][@stdlib/strided/base/function-object]: strided array function object.
--   [`@stdlib/strided/base/mskunary`][@stdlib/strided/base/mskunary]: strided array loops for operating on a single input strided array, a mask strided array, and one or more output strided arrays.
--   [`@stdlib/strided/base/nullary`][@stdlib/strided/base/nullary]: strided array loops for operating on one or more output strided arrays.
--   [`@stdlib/strided/base/smap`][@stdlib/strided/base/smap]: single-precision floating-point strided array interface for applying a unary callback to a single input strided array.
--   [`@stdlib/strided/base/smap2`][@stdlib/strided/base/smap2]: single-precision floating-point strided array interface for applying a binary callback to two input strided arrays.
--   [`@stdlib/strided/base/smskmap`][@stdlib/strided/base/smskmap]: single-precision floating-point strided array interface for applying a unary callback to a single input strided array according to a mask strided array.
--   [`@stdlib/strided/base/smskmap2`][@stdlib/strided/base/smskmap2]: single-precision floating-point strided array interface for applying a unary callback to two input strided arrays according to a mask strided array.
--   [`@stdlib/strided/base/unary`][@stdlib/strided/base/unary]: strided array loops for operating on a single input strided array and one or more output strided arrays. 
--   [`@stdlib/strided/base/zmap`][@stdlib/strided/base/zmap]: double-precision complex floating-point strided array interface for applying a unary callback to a single input strided array.
--   [`@stdlib/strided/dtypes`][@stdlib/strided/dtypes]: supported strided array data types.
--   [`@stdlib/strided/napi/binary`][@stdlib/strided/napi/binary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/binary`][@stdlib/strided/base/binary] interfaces with support for multiple dispatch.
--   [`@stdlib/strided/napi/cmap`][@stdlib/strided/napi/cmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/cmap`][@stdlib/strided/base/cmap] function.
--   [`@stdlib/strided/napi/dmap`][@stdlib/strided/napi/dmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmap`][@stdlib/strided/base/dmap] function.
--   [`@stdlib/strided/napi/dmap2`][@stdlib/strided/napi/dmap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmap2`][@stdlib/strided/base/dmap2] function.
--   [`@stdlib/strided/napi/dmskmap`][@stdlib/strided/napi/dmskmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmskmap`][@stdlib/strided/base/dmskmap] function.
--   [`@stdlib/strided/napi/dmskmap2`][@stdlib/strided/napi/dmskmap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmskmap2`][@stdlib/strided/base/dmskmap2] function.
--   [`@stdlib/strided/napi/mskunary`][@stdlib/strided/napi/mskunary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/mskunary`][@stdlib/strided/base/mskunary] interfaces with support for multiple dispatch.
--   [`@stdlib/strided/napi/nullary`][@stdlib/strided/napi/nullary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/nullary`][@stdlib/strided/base/nullary] interfaces with support for multiple dispatch.
--   [`@stdlib/strided/napi/smap`][@stdlib/strided/napi/smap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smap`][@stdlib/strided/base/smap] function.
--   [`@stdlib/strided/napi/smap2`][@stdlib/strided/napi/smap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smap2`][@stdlib/strided/base/smap2] function.
--   [`@stdlib/strided/napi/smskmap`][@stdlib/strided/napi/smskmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smskmap`][@stdlib/strided/base/smskmap] function.
--   [`@stdlib/strided/napi/smskmap2`][@stdlib/strided/napi/smskmap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smskmap2`][@stdlib/strided/base/smskmap2] function.
--   [`@stdlib/strided/napi/unary`][@stdlib/strided/napi/unary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/unary`][@stdlib/strided/base/unary] interfaces with support for multiple dispatch.
--   [`@stdlib/strided/napi/zmap`][@stdlib/strided/napi/zmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/zmap`][@stdlib/strided/base/zmap] function.
+-   [`@stdlib/strided-base/binary`][@stdlib/strided/base/binary]: strided array loops for operating on two input strided arrays and one or more output strided arrays.
+-   [`@stdlib/strided-base/cmap`][@stdlib/strided/base/cmap]: single-precision complex floating-point strided array interface for applying a unary callback to a single input strided array.
+-   [`@stdlib/strided-base/dmap`][@stdlib/strided/base/dmap]: double-precision floating-point strided array interface for applying a unary callback to a single input strided array.
+-   [`@stdlib/strided-base/dmap2`][@stdlib/strided/base/dmap2]: double-precision floating-point strided array interface for applying a binary callback to two input strided arrays.
+-   [`@stdlib/strided-base/dmskmap`][@stdlib/strided/base/dmskmap]: double-precision floating-point strided array interface for applying a unary callback to a single input strided array according to a mask strided array.
+-   [`@stdlib/strided-base/dmskmap2`][@stdlib/strided/base/dmskmap2]: double-precision floating-point strided array interface for applying a unary callback to two input strided arrays according to a mask strided array.
+-   [`@stdlib/strided-base/function-object`][@stdlib/strided/base/function-object]: strided array function object.
+-   [`@stdlib/strided-base/mskunary`][@stdlib/strided/base/mskunary]: strided array loops for operating on a single input strided array, a mask strided array, and one or more output strided arrays.
+-   [`@stdlib/strided-base/nullary`][@stdlib/strided/base/nullary]: strided array loops for operating on one or more output strided arrays.
+-   [`@stdlib/strided-base/smap`][@stdlib/strided/base/smap]: single-precision floating-point strided array interface for applying a unary callback to a single input strided array.
+-   [`@stdlib/strided-base/smap2`][@stdlib/strided/base/smap2]: single-precision floating-point strided array interface for applying a binary callback to two input strided arrays.
+-   [`@stdlib/strided-base/smskmap`][@stdlib/strided/base/smskmap]: single-precision floating-point strided array interface for applying a unary callback to a single input strided array according to a mask strided array.
+-   [`@stdlib/strided-base/smskmap2`][@stdlib/strided/base/smskmap2]: single-precision floating-point strided array interface for applying a unary callback to two input strided arrays according to a mask strided array.
+-   [`@stdlib/strided-base/unary`][@stdlib/strided/base/unary]: strided array loops for operating on a single input strided array and one or more output strided arrays. 
+-   [`@stdlib/strided-base/zmap`][@stdlib/strided/base/zmap]: double-precision complex floating-point strided array interface for applying a unary callback to a single input strided array.
+-   [`@stdlib/strided-dtypes`][@stdlib/strided/dtypes]: supported strided array data types.
+-   [`@stdlib/strided-napi/binary`][@stdlib/strided/napi/binary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/binary`][@stdlib/strided/base/binary] interfaces with support for multiple dispatch.
+-   [`@stdlib/strided-napi/cmap`][@stdlib/strided/napi/cmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/cmap`][@stdlib/strided/base/cmap] function.
+-   [`@stdlib/strided-napi/dmap`][@stdlib/strided/napi/dmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmap`][@stdlib/strided/base/dmap] function.
+-   [`@stdlib/strided-napi/dmap2`][@stdlib/strided/napi/dmap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmap2`][@stdlib/strided/base/dmap2] function.
+-   [`@stdlib/strided-napi/dmskmap`][@stdlib/strided/napi/dmskmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmskmap`][@stdlib/strided/base/dmskmap] function.
+-   [`@stdlib/strided-napi/dmskmap2`][@stdlib/strided/napi/dmskmap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/dmskmap2`][@stdlib/strided/base/dmskmap2] function.
+-   [`@stdlib/strided-napi/mskunary`][@stdlib/strided/napi/mskunary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/mskunary`][@stdlib/strided/base/mskunary] interfaces with support for multiple dispatch.
+-   [`@stdlib/strided-napi/nullary`][@stdlib/strided/napi/nullary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/nullary`][@stdlib/strided/base/nullary] interfaces with support for multiple dispatch.
+-   [`@stdlib/strided-napi/smap`][@stdlib/strided/napi/smap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smap`][@stdlib/strided/base/smap] function.
+-   [`@stdlib/strided-napi/smap2`][@stdlib/strided/napi/smap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smap2`][@stdlib/strided/base/smap2] function.
+-   [`@stdlib/strided-napi/smskmap`][@stdlib/strided/napi/smskmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smskmap`][@stdlib/strided/base/smskmap] function.
+-   [`@stdlib/strided-napi/smskmap2`][@stdlib/strided/napi/smskmap2]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/smskmap2`][@stdlib/strided/base/smskmap2] function.
+-   [`@stdlib/strided-napi/unary`][@stdlib/strided/napi/unary]: Node-API interfaces and macros for registering one or more [`@stdlib/strided/base/unary`][@stdlib/strided/base/unary] interfaces with support for multiple dispatch.
+-   [`@stdlib/strided-napi/zmap`][@stdlib/strided/napi/zmap]: Node-API interfaces and macros for registering a [`@stdlib/strided/base/zmap`][@stdlib/strided/base/zmap] function.
 
 For API documentation, consult the individual packages.
 
@@ -246,8 +257,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/strided-napi.svg
 [npm-url]: https://npmjs.org/package/@stdlib/strided-napi
 
-[test-image]: https://github.com/stdlib-js/strided-napi/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/strided-napi/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/strided-napi/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/strided-napi/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/strided-napi/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/strided-napi?branch=main
@@ -260,7 +271,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 -->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://gitter.im/stdlib-js/stdlib/
+[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
