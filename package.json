@@ -54,7 +54,7 @@
     "@stdlib/strided-base-unary": "^0.1.0",
     "@stdlib/strided-base-zmap": "^0.1.0",
     "@stdlib/strided-dtypes": "^0.1.0",
-    "@stdlib/strided-napi-binary": "^0.0.1",
+    "@stdlib/strided-napi-binary": "^0.1.0",
     "@stdlib/strided-napi-cmap": "^0.1.0",
     "@stdlib/strided-napi-dmap": "^0.1.0",
     "@stdlib/strided-napi-dmap2": "^0.1.0",
