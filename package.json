@@ -71,14 +71,14 @@
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.2.0",
-    "@stdlib/array-complex64": "^0.2.0",
+    "@stdlib/array-complex128": "^0.2.1",
+    "@stdlib/array-complex64": "^0.2.1",
     "@stdlib/array-float32": "^0.2.1",
     "@stdlib/array-float64": "^0.2.1",
     "@stdlib/array-uint8": "^0.2.1",
     "@stdlib/assert-is-browser": "^0.2.1",
-    "@stdlib/assert-is-complex128array": "^0.2.0",
-    "@stdlib/assert-is-complex64array": "^0.2.0",
+    "@stdlib/assert-is-complex128array": "^0.2.1",
+    "@stdlib/assert-is-complex64array": "^0.2.1",
     "@stdlib/complex-real": "^0.2.1",
     "@stdlib/math-base-assert-is-nan": "^0.2.1",
     "@stdlib/math-base-assert-is-nanf": "^0.2.1",
