@@ -4,90 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-13)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="strided-napi-unreleased">
-
-#### [@stdlib/strided/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi)
-
-<details>
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#5981](https://github.com/stdlib-js/stdlib/issues/5981)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-smskmap-unreleased">
-
-#### [@stdlib/strided/napi/smskmap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/smskmap)
-
-<details>
-
-<section class="issues">
-
-##### Closed Issues
-
-This release closes the following issue:
-
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526)
-
-</section>
-
-<!-- /.issues -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
+## Unreleased (2026-01-25)
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5981](https://github.com/stdlib-js/stdlib/issues/5981)
+[#5526](https://github.com/stdlib-js/stdlib/issues/5526), [#5981](https://github.com/stdlib-js/stdlib/issues/5981), [#6053](https://github.com/stdlib-js/stdlib/issues/6053), [#7002](https://github.com/stdlib-js/stdlib/issues/7002), [#7182](https://github.com/stdlib-js/stdlib/issues/7182), [#7774](https://github.com/stdlib-js/stdlib/issues/7774)
 
 </section>
 
 <!-- /.issues -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 4 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Gautam sharma
--   Philipp Burckhardt
--   ditsu
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -95,14 +24,36 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`504a3f1`](https://github.com/stdlib-js/stdlib/commit/504a3f1d1db20b670b48efd1c292d7efbb433b58) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`01f0ee9`](https://github.com/stdlib-js/stdlib/commit/01f0ee99a093a96187db68fbabe0f79d972a1227) - **chore:** fix EditorConfig lint errors [(#7778)](https://github.com/stdlib-js/stdlib/pull/7778) _(by Lalit Narayan Yadav)_
+-   [`7ca5048`](https://github.com/stdlib-js/stdlib/commit/7ca50484506f78580c9f7d175d6bbba3f3d8d785) - **chore:** fix EditorConfig lint errors [(#7211)](https://github.com/stdlib-js/stdlib/pull/7211) _(by Lalit Narayan Yadav)_
+-   [`d03bb0e`](https://github.com/stdlib-js/stdlib/commit/d03bb0e424f4da2bdab8b379b39e2d29dce71793) - **chore:** fix EditorConfig lint errors [(#7015)](https://github.com/stdlib-js/stdlib/pull/7015) _(by Lalit Narayan Yadav)_
+-   [`b6a6575`](https://github.com/stdlib-js/stdlib/commit/b6a657548d4e7beacc37f26e7f49c77ae3ea2f0b) - **chore:** fix EditorConfig lint errors [(#6057)](https://github.com/stdlib-js/stdlib/pull/6057) _(by Gautam Kaushik)_
 -   [`a3351e5`](https://github.com/stdlib-js/stdlib/commit/a3351e50d47cbe46ffd0dd1723992c9933233cc4) - **chore:** resolve EditorConfig lint error  [(#5986)](https://github.com/stdlib-js/stdlib/pull/5986) _(by Gautam sharma)_
--   [`a1e8f03`](https://github.com/stdlib-js/stdlib/commit/a1e8f03af0ee470d0783cb840878dc7cde0826c3) - **chore:** fix EditorConfig lint errors [(#5543)](https://github.com/stdlib-js/stdlib/pull/5543) _(by ditsu, Athan Reines, Philipp Burckhardt)_
+-   [`a1e8f03`](https://github.com/stdlib-js/stdlib/commit/a1e8f03af0ee470d0783cb840878dc7cde0826c3) - **chore:** fix EditorConfig lint errors [(#5543)](https://github.com/stdlib-js/stdlib/pull/5543) _(by Ditsu S, Athan Reines, Philipp Burckhardt)_
 
 </details>
 
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 6 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Ditsu S
+-   Gautam Kaushik
+-   Gautam sharma
+-   Lalit Narayan Yadav
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -111,27 +62,6 @@ A total of 4 people contributed to this release. Thank you to the following cont
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-29)
-
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -147,6 +77,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -166,27 +109,6 @@ No changes reported for this release.
 
 ## 0.2.0 (2024-02-14)
 
-<section class="packages">
-
-### Packages
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
@@ -202,6 +124,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
 </section>
 
 <!-- /.release -->
@@ -210,523 +145,15 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 ## 0.1.0 (2023-09-24)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="strided-napi-v0.1.0">
-
-#### [@stdlib/strided/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi)
-
-<details>
-
 <section class="features">
 
-##### Features
+### Features
 
 -   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-addon-arguments-v0.1.0">
-
-#### [@stdlib/strided/napi/addon-arguments](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/addon-arguments)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-cmap-v0.1.0">
-
-#### [@stdlib/strided/napi/cmap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/cmap)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-dmap-v0.1.0">
-
-#### [@stdlib/strided/napi/dmap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/dmap)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-dmap2-v0.1.0">
-
-#### [@stdlib/strided/napi/dmap2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/dmap2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-dmskmap-v0.1.0">
-
-#### [@stdlib/strided/napi/dmskmap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/dmskmap)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-dmskmap2-v0.1.0">
-
-#### [@stdlib/strided/napi/dmskmap2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/dmskmap2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-mskunary-v0.1.0">
-
-#### [@stdlib/strided/napi/mskunary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/mskunary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-nullary-v0.1.0">
-
-#### [@stdlib/strided/napi/nullary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/nullary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-smap-v0.1.0">
-
-#### [@stdlib/strided/napi/smap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/smap)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-smap2-v0.1.0">
-
-#### [@stdlib/strided/napi/smap2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/smap2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-smskmap-v0.1.0">
-
-#### [@stdlib/strided/napi/smskmap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/smskmap)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-smskmap2-v0.1.0">
-
-#### [@stdlib/strided/napi/smskmap2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/smskmap2)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-unary-v0.1.0">
-
-#### [@stdlib/strided/napi/unary](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/unary)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="strided-napi-zmap-v0.1.0">
-
-#### [@stdlib/strided/napi/zmap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/strided/napi/zmap)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`ca91187`](https://github.com/stdlib-js/stdlib/commit/ca9118749c1e8f3ad1f722ef69e3dc602e57b6c7): update minimum TypeScript version to 4.1
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -739,18 +166,6 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.breaking-changes -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -765,6 +180,18 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
