@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/strided-napi",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "C APIs for creating Node-API strided array native add-ons.",
   "license": "Apache-2.0",
   "author": {
@@ -44,7 +44,7 @@
     "@stdlib/strided-base-dmap2": "^0.2.2",
     "@stdlib/strided-base-dmskmap": "^0.2.2",
     "@stdlib/strided-base-dmskmap2": "^0.2.2",
-    "@stdlib/strided-base-function-object": "^0.2.2",
+    "@stdlib/strided-base-function-object": "^0.2.3",
     "@stdlib/strided-base-mskunary": "^0.3.0",
     "@stdlib/strided-base-nullary": "^0.3.0",
     "@stdlib/strided-base-smap": "^0.2.2",
@@ -62,17 +62,17 @@
     "@stdlib/strided-napi-dmskmap2": "^0.2.2",
     "@stdlib/strided-napi-mskunary": "^0.2.2",
     "@stdlib/strided-napi-nullary": "^0.2.2",
-    "@stdlib/strided-napi-smap": "^0.2.2",
-    "@stdlib/strided-napi-smap2": "^0.2.2",
-    "@stdlib/strided-napi-smskmap": "^0.2.2",
-    "@stdlib/strided-napi-smskmap2": "^0.2.2",
-    "@stdlib/strided-napi-unary": "^0.2.2",
-    "@stdlib/strided-napi-zmap": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/strided-napi-smap": "^0.2.3",
+    "@stdlib/strided-napi-smap2": "^0.2.3",
+    "@stdlib/strided-napi-smskmap": "^0.2.3",
+    "@stdlib/strided-napi-smskmap2": "^0.2.3",
+    "@stdlib/strided-napi-unary": "^0.2.3",
+    "@stdlib/strided-napi-zmap": "^0.2.3",
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.3.0",
-    "@stdlib/array-complex64": "^0.3.0",
+    "@stdlib/array-complex128": "^0.3.1",
+    "@stdlib/array-complex64": "^0.3.1",
     "@stdlib/array-float32": "^0.2.2",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
@@ -115,11 +115,6 @@
     "node-api",
     "addon"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
