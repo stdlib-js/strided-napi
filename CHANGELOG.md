@@ -2,6 +2,42 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-24)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`4728aa8`](https://github.com/stdlib-js/stdlib/commit/4728aa8f65605d893ac1ad71c0ddeeaa7bb4597b) - **docs:** collapse double spaces in `strided/napi/{binary,smskmap,unary}` [(#12118)](https://github.com/stdlib-js/stdlib/pull/12118) _(by Philipp Burckhardt)_
+-   [`f092cb7`](https://github.com/stdlib-js/stdlib/commit/f092cb78b79b7dc3d0adb56b5d0dc621ae117bbe) - **bench:** fix `real` import in `strided/napi/cmap` [(#12058)](https://github.com/stdlib-js/stdlib/pull/12058) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Karan Anand
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-01)
