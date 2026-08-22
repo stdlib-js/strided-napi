@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-04)
+## Unreleased (2026-08-22)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`49456e6`](https://github.com/stdlib-js/stdlib/commit/49456e6bc2452bb4190c487f39860ed5fee3f80d) - **bench:** use `isnanf` in `strided/napi/smap` [(#13385)](https://github.com/stdlib-js/stdlib/pull/13385) _(by Philipp Burckhardt)_
 -   [`4728aa8`](https://github.com/stdlib-js/stdlib/commit/4728aa8f65605d893ac1ad71c0ddeeaa7bb4597b) - **docs:** collapse double spaces in `strided/napi/{binary,smskmap,unary}` [(#12118)](https://github.com/stdlib-js/stdlib/pull/12118) _(by Philipp Burckhardt)_
 -   [`f092cb7`](https://github.com/stdlib-js/stdlib/commit/f092cb78b79b7dc3d0adb56b5d0dc621ae117bbe) - **bench:** fix `real` import in `strided/napi/cmap` [(#12058)](https://github.com/stdlib-js/stdlib/pull/12058) _(by Karan Anand)_
 
